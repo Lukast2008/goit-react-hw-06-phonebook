@@ -1,16 +1,13 @@
+import HomeView from 'pages/HomeView/HomeView';
+import AddContact from 'pages/AddUserView/AddUserView';
+import Filter from 'pages/Filter/Filter';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <>
+      <AddContact />
+      <Filter />
+      <HomeView />
+    </>
   );
 };
