@@ -1,6 +1,6 @@
-import HomeView from 'pages/HomeView/HomeView';
-import AddContact from 'pages/AddUserView/AddUserView';
-import Filter from 'pages/Filter/Filter';
+import HomeView from 'components/HomeView/HomeView';
+import AddContact from 'components/AddUserView/AddUserView';
+import Filter from 'components/Filter/Filter';
 
 export const App = () => {
   return (
